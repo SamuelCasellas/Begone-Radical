@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Begone, Radicals!",
-  "description": "Removes annoying spam on polymarket.",
+  "name": "No Spam Market",
+  "description": "Removes annoying spam on polymarket™.",
   "version": "0.1.0",
   "permissions": [
     "storage",
@@ -16,11 +16,8 @@
       "js": ["modules.js", "chromeStorageFunctions.js", "script.js"]
     }
   ],
-  // "action": {
-  //   "default_icon": "128x128 robot.png"
-  // },
   "icons": {
-    "16": "128x128 robot.png",
-    "128": "128x128 robot.png"
+    "16": "No spam market.png",
+    "128": "No spam market.png"
   }
 }
