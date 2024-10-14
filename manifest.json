@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "permissions": [
     "storage",
-    "alarms",
     "contextMenus"
   ],
   "background": {
@@ -16,15 +15,10 @@
       "matches": ["https://polymarket.com/*"],
       "js": ["modules.js", "chromeStorageFunctions.js", "script.js"]
     }
-    // {
-    //   "matches": ["https://extensionpay.com/*"],
-    //   "js": ["ExtPay.js"],
-    //   "run_at": "document_start"
-    // }
   ],
-  "action": {
-    "default_icon": "128x128 robot.png"
-  },
+  // "action": {
+  //   "default_icon": "128x128 robot.png"
+  // },
   "icons": {
     "16": "128x128 robot.png",
     "128": "128x128 robot.png"
