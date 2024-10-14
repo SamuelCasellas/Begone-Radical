@@ -41,6 +41,8 @@
 //   authenticateUser();
 // });
 
+
+// https://www.youtube.com/watch?v=vPp9fYf_7tg
 function createContextMenu() {
   chrome.contextMenus.removeAll();
 
